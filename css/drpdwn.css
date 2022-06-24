@@ -1,0 +1,131 @@
+.nav {
+    background-color: dimgrey;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+}
+.nav a {
+    text-align: center;
+    color: white;
+    display: inline;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;
+    overflow: hidden;}
+.nav-rt{
+    float: right;
+}
+
+
+.drpdwn{
+    overflow: hidden;
+    float: left;
+}
+.drpdwn .drpbtn {
+    padding: 17px 18px;
+    font-size: 17px;
+    color: rgb(247, 242, 242);
+    border: none;
+    margin: 0;
+    outline: none;
+    background-color: inherit;
+
+}
+.nav a:hover ,.drpdwn:hover .drpbtn{
+    background-color: rgb(245, 42, 6);
+}
+.drpdwn-cnt{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 0 7px 3px grey;
+    
+    font-size: 17px;
+}
+.drpdwn-cnt a {
+    color: black;
+    padding: 17px 18px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    float: none;
+}
+.drpdwn-cnt a:hover {
+    background-color:lightgrey;
+}
+.drpdwn:hover .drpdwn-cnt {
+    display: block;
+  }
+
+  .col {
+    width: 10%;
+    float: left;
+    background-color: rgb(248, 245, 245);
+    border-radius:0 6px 6px 0;
+    text-align: center;
+    color: rgb(6, 6, 6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+ 
+}
+
+.col-cnt a {
+    padding: 18px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: rgb(9, 9, 9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    border-left:5px solid dimgrey;
+    
+}
+
+.col-cnt a:hover {
+    background-color: red;
+}
+
+.col1 {
+    width: 85%;
+    float: left;
+    margin-left: 15%;
+}
+
+
+.image {
+    border-radius: 10px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    width: 300px;
+    margin: 30px;
+    background-color: white;
+    display: inline-block;
+}
+
+.image:hover {
+    border: 1px solid;
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.box {
+    padding: 17px;
+    border-left: 7px solid dimgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 6px;
+    width: 85%;
+}
+
+.det {
+    text-align: center;
+    padding:5px;
+    margin-left: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
